@@ -1,0 +1,36 @@
+[
+	{
+        "name": "Draconic",
+        "movementType": "Land",
+        "uniques": ["Eliminates combat penalty for attacking over a river","Can pass through impassable tiles","Defense bonus when embarked",
+					"All tiles cost 1 movement","Normal vision when embarked","Eliminates combat penalty for attacking across a coast",
+					"Never appears as a Barbarian unit"]
+    },
+	{
+        "name": "Sea Monster",
+        "movementType": "Water",
+        "uniques": ["May heal outside of friendly territory", "[+5] HP when healing <in [Friendly Land] tiles>",
+					"[+33]% Strength <vs [Embarked] units>", "[+15]% Strength <when fighting in [Ocean] tiles><with [0] to [0] neighboring [Coast] tiles>",
+					"Never appears as a Barbarian unit"]
+    },
+	{
+        "name": "Construct",														//ALL Construct-type unit should have both Strength and Ranged Strength and specified minimum 0 Range
+        "movementType": "Land",
+        "uniques": ["[+25]% Strength <when defending>","Ignores Zone of Control",
+					"Rough terrain penalty","Never appears as a Barbarian unit"]
+    },
+	
+	//Civ-Specific UnitType
+	
+	//First Order
+	{
+        "name": "Obelisk",
+        "movementType": "Air",
+        "uniques": ["Warping Device", "6 tiles in every direction always visible", "Cannot be intercepted", 
+					"Unit will heal every turn, even if it performs an action",
+					"[+40]% Strength <starting from the [Heroic age]>",
+					"[+60]% Strength <starting from the [Mythic age]>",
+					"[+100]% Strength <starting from the [Chaos age]>",
+					"[+120]% Strength <starting from the [Future age]>"]
+    }
+]

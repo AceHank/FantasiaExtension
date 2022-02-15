@@ -1,0 +1,677 @@
+[
+
+	{
+		"name": "Heal Instantly",
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Draconic","Construct","Sea Monster"]
+	},
+	
+	// Scout
+	{
+		"name": "Scouting I",
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Scout"]
+	},
+	{
+		"name": "Scouting II",
+		"prerequisites": ["Scouting I"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Scout"]
+	},
+	{
+		"name": "Scouting III",
+		"prerequisites": ["Scouting II"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Scout"]
+	},
+	{
+		"name": "Survivalism I",
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+33]% Strength <when defending>"],
+		"unitTypes": ["Scout"]
+	},
+	{
+		"name": "Survivalism II",
+		"prerequisites": ["Survivalism I"],
+		"uniques": ["Unit will heal every turn, even if it performs an action", "May withdraw before melee ([50]%)"], // This number is not based on any source
+		"unitTypes": ["Scout"]
+	},
+	
+	// Ranged+Siege
+	{
+		"name": "Accuracy I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
+	},
+	{
+		"name": "Accuracy II",
+		"prerequisites": ["Accuracy I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
+	},
+	{
+		"name": "Accuracy III",
+		"prerequisites": ["Accuracy II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
+	},
+
+	{
+		"name": "Barrage I",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
+	},
+	{
+		"name": "Barrage II",
+		"prerequisites": ["Barrage I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
+	},
+	{
+		"name": "Barrage III",
+		"prerequisites": ["Barrage II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
+	},
+
+	{
+		"name": "Volley",
+		"prerequisites": ["Accuracy I","Barrage I"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Archery","Ranged Gunpowder","Siege"]
+	},
+	{
+		"name": "Extended Range",
+		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II","Wolfpack II","Wave II"],
+		"uniques": ["[+1] Range"],
+		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine","Sea Monster"]
+	},
+	{
+		"name": "Indirect Fire",
+		"prerequisites": ["Accuracy III","Barrage III","Bombardment II","Targeting II","Wave II"],
+		"uniques": ["Ranged attacks may be performed over obstacles"],
+		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Sea Monster"]
+	},
+
+	// Melee,Mounted,Armor+Hero+Vampire
+	{
+		"name": "Shock I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Construct"]
+	},
+	{
+		"name": "Shock II",
+		"prerequisites": ["Shock I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Construct"]
+	},
+	{
+		"name": "Shock III",
+		"prerequisites": ["Shock II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Construct"]
+	},
+
+	{
+		"name": "Drill I",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Construct"]
+	},
+	{
+		"name": "Drill II",
+		"prerequisites": ["Drill I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Construct"]
+	},
+	{
+		"name": "Drill III",
+		"prerequisites": ["Drill II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Construct"]
+	},
+	{
+		"name": "Charge",
+		"prerequisites": ["Shock II","Drill II","Wolfpack II"],
+		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
+		"unitTypes": ["Mounted","Armored","Draconic"]
+	},
+	{
+		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
+		"prerequisites": ["Shock II","Drill II"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Sword","Gunpowder","Construct"]
+	},
+	{
+		"name": "Formation I",
+		"prerequisites": ["Shock II","Drill II"], // G&K also has Accuracy II & Barrage II as possible prerequisites for this, but I couldn't find a source for the unittypes
+		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted"]
+	},
+	{
+		"name": "Formation II",
+		"prerequisites": ["Formation I"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted"]
+	},
+
+	{
+		"name": "Blitz",
+		"prerequisites": ["Shock III","Drill III"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"]
+	},
+	{
+		"name": "Woodsman",
+		"prerequisites": ["Shock III","Drill III"],
+		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
+		"unitTypes": ["Sword","Gunpowder"]
+	},
+	{
+		"name": "Riverrun",
+		"uniques": ["Eliminates combat penalty for attacking over a river"],
+		"unitTypes": ["Sword","Gunpowder","Construct"]
+	},
+	{
+		"name": "Amphibious",
+		"prerequisites": ["Shock II","Drill II","Riverrun"],
+		"uniques": ["Normal vision when embarked", "Eliminates combat penalty for attacking from the sea"],
+		"unitTypes": ["Sword","Gunpowder","Construct"]
+	},
+	{
+		"name": "Medic",
+		"prerequisites": ["Shock I", "Drill I", "Scouting II", "Survivalism II"],
+		"uniques": ["[+1] HP when healing", "All adjacent units heal [+5] HP when healing"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout"]
+	},
+	{
+		"name": "Medic II",
+		"prerequisites": ["Medic"],
+		"uniques": ["[+1] HP when healing", "[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+5] HP when healing"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout"]
+	},
+	
+	// Water melee
+	{
+		"name": "Boarding Party I",
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Melee Water"]
+	},
+	{
+		"name": "Boarding Party II",
+		"prerequisites": ["Boarding Party I"],
+		"uniques": ["[+20]% Strength <vs [Water] units>"],
+		"unitTypes": ["Melee Water"]
+	},
+	{
+		"name": "Boarding Party III",
+		"prerequisites": ["Boarding Party II"],
+		"uniques": ["[+20]% Strength <vs [Water] units>"],
+		"unitTypes": ["Melee Water"]
+	},
+
+	{
+		"name": "Coastal Raider I",
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"unitTypes": ["Melee Water","Sea Monster"]
+	},
+	{
+		"name": "Coastal Raider II",
+		"prerequisites": ["Coastal Raider I"],
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"unitTypes": ["Melee Water","Sea Monster"]
+	},
+	{
+		"name": "Coastal Raider III",
+		"prerequisites": ["Coastal Raider II"],
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"unitTypes": ["Melee Water","Sea Monster"]
+	},
+
+	// Water Ranged+WaterHero
+	{
+		"name": "Targeting I",
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Ranged Water","Sea Monster"]
+	},
+	{
+		"name": "Targeting II",
+		"prerequisites": ["Targeting I"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Ranged Water","Sea Monster"]
+	},
+	{
+		"name": "Targeting III",
+		"prerequisites": ["Targeting II"],
+		"uniques": ["[+20]% Strength <vs [Water] units>"],
+		"unitTypes": ["Ranged Water","Sea Monster"]
+	},
+	{
+		"name": "Wave I",
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"unitTypes": ["Ranged Water"]
+	},
+	{
+		"name": "Wave II",
+		"prerequisites": ["Wave I"],
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"unitTypes": ["Ranged Water"]
+	},
+	{
+		"name": "Wave III",
+		"prerequisites": ["Wave II"],
+		"uniques": ["[+34]% Strength <vs [Land] units>"],
+		"unitTypes": ["Ranged Water"]
+	},
+
+	// Submarine+WaterTerror
+	{
+		"name": "Wolfpack I",
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Submarine","Draconic"]
+	},
+	{
+		"name": "Wolfpack II",
+		"prerequisites": ["Wolfpack I"],
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Submarine","Draconic"]
+	},
+	{
+		"name": "Wolfpack III",
+		"prerequisites": ["Wolfpack II"],
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Submarine","Draconic"]
+	},
+
+	// Aircraft Carrier
+	{
+		"name": "Armor Plating I",
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Aircraft Carrier"]
+	},
+	{
+		"name": "Armor Plating II",
+		"prerequisites": ["Armor Plating I"],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Aircraft Carrier"]
+	},
+	{
+		"name": "Armor Plating III",
+		"prerequisites": ["Armor Plating II"],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Aircraft Carrier"]
+	},
+	{
+		"name": "Flight Deck I",
+		"uniques": ["Can carry [1] extra [Aircraft] units"],
+		"unitTypes": ["Aircraft Carrier"]
+	},
+	{
+		"name": "Flight Deck II",
+		"prerequisites": ["Flight Deck I"],
+		"uniques": ["Can carry [1] extra [Aircraft] units"],
+		"unitTypes": ["Aircraft Carrier"]
+	},
+	{
+		"name": "Flight Deck III",
+		"prerequisites": ["Flight Deck II"],
+		"uniques": ["Can carry [1] extra [Aircraft] units"],
+		"unitTypes": ["Aircraft Carrier"]
+	},
+
+	// Mixed Water
+	{
+		"name" : "Supply",
+		"prerequisites": ["Bombardment III", "Targeting III", "Boarding Party III", "Coastal Raider III"],
+		"uniques": ["May heal outside of friendly territory", "[+15] HP when healing <in [Foreign Land] tiles>"],
+		"unitTypes": ["Melee Water", "Ranged Water"]
+	},
+
+	// Bomber
+	{
+		"name": "Siege I",
+		"uniques": ["[+33]% Strength <vs cities>"],
+		"unitTypes": ["Bomber"]
+	},
+	{
+		"name": "Siege II",
+		"prerequisites": ["Siege I"],
+		"uniques": ["[+33]% Strength <vs cities>"],
+		"unitTypes": ["Bomber"]
+	},
+	{
+		"name": "Siege III",
+		"prerequisites": ["Siege II"],
+		"uniques": ["[+34]% Strength <vs cities>"],
+		"unitTypes": ["Bomber"]
+	},
+	{
+		"name": "Evasion",
+		"prerequisites": ["Siege II", "Bombardment II"],
+		"uniques": ["Damage taken from interception reduced by [50]%"],
+		"unitTypes": ["Bomber"]
+	},
+
+	// Aircraft
+	{
+		"name": "Interception I",
+		"uniques": ["[+33]% Damage when intercepting"],
+		"unitTypes": ["Fighter"]
+	},
+	{
+		"name": "Interception II",
+		"prerequisites": ["Interception I"],
+		"uniques": ["[+33]% Damage when intercepting"],
+		"unitTypes": ["Fighter"]
+	},
+	{
+		"name": "Interception III",
+		"prerequisites": ["Interception II"],
+		"uniques": ["[+34]% Damage when intercepting"],
+		"unitTypes": ["Fighter"]
+	},
+	/*
+	{
+		"name": "Dogfighting I",
+		"uniques": ["Bonus when performing air sweep [33]%"], // todo
+		"unitTypes": ["Fighter"]
+	},
+	{
+		"name": "Dogfighting II",
+		"prerequisites": ["Dogfighting I"],
+		"uniques": ["Bonus when performing air sweep [33]%"],
+		"unitTypes": ["Fighter"]
+	},
+	{
+		"name": "Dogfighting III",
+		"prerequisites": ["Dogfighting II"],
+		"uniques": ["Bonus when performing air sweep [34]%"],
+		"unitTypes": ["Fighter"]
+	}
+	*/
+
+	{
+		"name": "Air Targeting I",
+		"prerequisites": ["Interception I","Siege I","Bombardment I"],  // "Dogfighting I"
+		"uniques": ["[+33]% Strength <vs [Water] units>"],
+		"unitTypes": ["Fighter","Bomber"]
+	},
+	{
+		"name": "Air Targeting II",
+		"prerequisites": ["Air Targeting I"],
+		"uniques": ["[+33]% Strength <vs [Water] units>"],
+		"unitTypes": ["Fighter","Bomber"]
+	},
+
+	{
+		"name": "Sortie",
+		"prerequisites": ["Interception II"],  // "Dogfighting II"
+		"uniques": ["[1] extra interceptions may be made per turn"],
+		"unitTypes": ["Fighter"]
+	},
+
+	{
+		"name": "Operational Range",
+		"prerequisites": ["Interception I", "Siege I", "Bombardment I"], // "Dogfighting I"
+		"uniques": ["[+2] Range"],
+		"unitTypes": ["Fighter","Bomber"]
+	},
+	{
+		"name": "Air Repair",
+		"prerequisites": ["Interception II", "Siege II", "Bombardment II", "Mobility II", "Anti-Armor II"], // "Dogfighting II"
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
+	},
+
+	// Helicopter
+	{
+		"name": "Mobility I",
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Helicopter"]
+	},
+	{
+		"name": "Mobility II",
+		"prerequisites": ["Mobility I"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Helicopter"]
+	},
+	{
+		"name": "Anti-Armor I",
+		"uniques": ["[+25]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Helicopter"]
+	},
+	{
+		"name": "Anti-Armor II",
+		"prerequisites": ["Anti-Armor I"],
+		"uniques": ["[+25]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Helicopter"]
+	},
+	
+	// Draconic
+	
+	{
+		"name": "Intimidation",
+		"prerequisites": ["Wolfpack III", "Shock III", "Drill III"],
+		"uniques": ["[-15]% Strength for enemy [All] units in adjacent [All] tiles"],
+		"unitTypes": ["Draconic","Construct"]
+	},
+	
+	// Mixed
+	{
+		"name": "Cover I",
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Draconic","Construct"]
+	},
+	{
+		"name": "Cover II",
+		"prerequisites": ["Cover I"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Draconic","Construct"]
+	},
+	{
+		"name": "March",
+		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Mounted"]
+	},
+	{
+		"name": "Mobility",
+		"prerequisites": ["Shock II","Drill II","Targeting I","Wave I",
+			"Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine","Construct","Sea Monster"]
+	},
+	{
+		"name": "Sentry",
+		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Wave I",
+			"Boarding Party I","Coastal Raider I","Wolfpack I"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water","Sea Monster"]
+	},
+	{
+		"name": "Logistics",
+		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III","Intimidation",
+			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III", "Mobility II", "Anti-Armor II"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Helicopter","Draconic","Sea Monster"]
+	},
+	{
+		"name": "Ambush I",
+		"uniques": ["[+33]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber","Draconic","Construct"]
+	},
+	{
+		"name": "Ambush II",
+		"prerequisites": ["Ambush I"],
+		"uniques": ["[+33]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber","Draconic","Construct"]
+	},
+
+	// Water ranged and air units
+	{
+		"name": "Bombardment I",
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"unitTypes": ["Ranged Water","Fighter","Bomber","Sea Monster"]
+	},
+	{
+		"name": "Bombardment II",
+		"prerequisites": ["Bombardment I"],
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"unitTypes": ["Ranged Water","Fighter","Bomber","Sea Monster"]
+	},
+	{
+		"name": "Bombardment III",
+		"prerequisites": ["Bombardment II"],
+		"uniques": ["[+34]% Strength <vs [Land] units>"],
+		"unitTypes": ["Ranged Water","Fighter","Bomber","Sea Monster"]
+	},
+	
+	//Construct
+	{
+		"name": "Ballistic Capability",
+		"prerequisites": ["Cover II"],
+		"uniques": ["[+1] Range"],
+		"unitTypes": ["Construct"]
+	},
+	{
+		"name": "Exposed Core",
+		"prerequisites": ["Wolfpack II","Shock II","Drill II","Cover II"],
+		"uniques": ["[+50]% Strength <when below [40] HP>"],
+		"unitTypes": ["Construct"]
+	},
+	{
+		"name": "Auxiliary Core",
+		"prerequisites": ["Shock III","Drill III","Exposed Core"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Construct"]
+	},
+	
+	//Sea Monster
+	{
+		"name": "Uncanny Agility",
+		"prerequisites": ["Targeting II","Bombardment II","Coastal Raider II"],
+		"uniques": ["May withdraw before melee ([50]%)","Ignores Zone of Control"],
+		"unitTypes": ["Sea Monster"]
+	},
+	{
+		"name": "Frightening Visage",
+		"prerequisites": ["Targeting III","Bombardment III","Coastal Raider III","Uncanny Agility","Regenerative Tissue"],
+		"uniques": ["[-20]% Strength for enemy [All] units in adjacent [All] tiles"],
+		"unitTypes": ["Sea Monster"]
+	},
+	{
+		"name": "Regenerative Tissue",
+		"prerequisites": ["Targeting II","Bombardment II","Coastal Raider II"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Sea Monster"]
+	},
+	
+	// Uniques that should be kept on upgrades
+	{
+		"name": "Ignore terrain cost",
+		"uniques": ["Ignores terrain cost"]
+	},
+	{
+		"name": "Elixir of Life",
+		"uniques": ["Heal this unit by [100] HP", "Doing so will consume this opportunity to choose a Promotion"]
+	},
+	{
+		"name": "Regenerative Bio-Steel",
+		"uniques": ["[+10] HP when healing", "[+25]% Strength <when defending>"]
+	},
+	{
+		"name": "Divine Right",
+		"uniques": ["Prevents spreading of religion to the city it is next to"]
+	},
+	{
+		"name": "Final Moments",
+		"uniques": ["[+170]% Strength <when below [10] HP>","Self-destructs when attacking <when below [90] HP>"]
+	},
+	{
+		"name": "Impetus",
+		"uniques": ["[+100]% Strength <when attacking> <when above [95] HP>"]
+	},
+	{
+		"name": "Disciplined",
+		"uniques": ["[+10]% Strength <when adjacent to a [Melee] unit>","[75]% XP gained from combat"]
+	},
+	{
+		"name": "Dominion Patrol",
+		"uniques": ["[+1] Movement <in [Friendly Land] tiles>","[+1] Sight <in [Friendly Land] tiles>"]
+	},
+	{
+		"name": "Fast Learner",
+		"uniques": ["[+100]% XP gained from combat"]
+	},
+	
+		//Negative Promotion
+	{
+		"name": "Slow Learner",
+		"uniques": ["[-50]% XP gained from combat"]
+	},
+	
+		//Civ-related
+	{
+		"name": "Draconic Warrior",
+		"uniques": ["May withdraw before melee ([33]%)","Ignores Zone of Control"]
+	},
+	{
+		"name": "Creature of the Depth",		//TLDR: Water good, no water bad
+		"uniques": ["[+10]% Strength <when fighting in [Fresh Water] tiles> <in [Land] tiles> <with [0] to [0] neighboring [Coast] tiles>","[+15]% Strength <when fighting in [Coast] tiles>",
+					"[+15]% Strength <when fighting in [Land] tiles> <with [1] to [6] neighboring [Coast] tiles>",
+					"Normal vision when embarked","Eliminates combat penalty for attacking across a coast","Defense bonus when embarked","Eliminates combat penalty for attacking over a river",
+					"[+1] Movement <in [Fresh Water] tiles> <in [Land] tiles> <with [0] to [0] neighboring [Coast] tiles>","[+1] Movement <in [Coast] tiles>","[-1] Movement <in [Land] tiles> <with [0] to [0] neighboring [Coast] tiles>"]
+	},
+	
+		//First Order Obelisk
+	{
+		"name": "Focusing Crystal I",
+		"uniques": ["[+15]% Strength <vs [Land] units>"],
+		"unitTypes": ["Obelisk"]
+	},
+	{
+		"name": "Focusing Crystal II",
+		"prerequisites": ["Focusing Crystal I"],
+		"uniques": ["[+15]% Strength <vs [Land] units>"],
+		"unitTypes": ["Obelisk"]
+	},
+	{
+		"name": "Focusing Crystal III",
+		"prerequisites": ["Focusing Crystal II"],
+		"uniques": ["[+20]% Strength <vs [Land] units>"],
+		"unitTypes": ["Obelisk"]
+	},
+	{
+		"name": "HE Payload I",
+		"uniques": ["[+20]% Strength <vs cities>"],
+		"unitTypes": ["Obelisk"]
+	},
+	{
+		"name": "HE Payload II",
+		"prerequisites": ["HE Payload I"],
+		"uniques": ["[+20]% Strength <vs cities>"],
+		"unitTypes": ["Obelisk"]
+	},
+	{
+		"name": "HE Payload III",
+		"prerequisites": ["HE Payload II"],
+		"uniques": ["[+20]% Strength <vs cities>"],
+		"unitTypes": ["Obelisk"]
+	},
+	{
+		"name": "Cryonite-cooled Radiator",
+		"prerequisites": ["HE Payload III","Focusing Crystal III"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Obelisk"]
+	},
+	{
+		"name": "Malachite-infused Payload",
+		"prerequisites": ["Cryonite-cooled Radiator"],
+		"uniques": ["[+50]% Strength <vs [Wounded] units>"],
+		"unitTypes": ["Obelisk"]
+	},
+	{
+		"name": "Cluster Payload",
+		"prerequisites": ["Malachite-infused Payload"],
+		"uniques": ["Blast radius [1]"],
+		"unitTypes": ["Obelisk"]
+	}
+]

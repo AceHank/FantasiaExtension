@@ -1,0 +1,25 @@
+[
+	//CIV-RELATED SPECIALIST	
+		
+		//SHINSO
+	{
+		"name":"Zen Overseer",
+		"faith": 3,
+		"science": 3,
+		"culture": 3,
+		"gold": 3,
+		"greatPersonPoints": {"Great Artist": 3, "Great Engineer": 3, "Great Scientist": 3, "Great Merchant": 3},
+		"color": [255,20,147]
+	},
+	
+		//FIRST ORDER
+	{
+		"name":"Disciple",
+		"science": 2,
+		"gold": 2,
+		"production": 1,
+		"greatPersonPoints": {"Great Scientist": 4},
+		"color": [240,230,140]
+	},
+	
+]

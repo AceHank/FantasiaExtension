@@ -1,0 +1,465 @@
+[
+	//UNIQUE BUILDING
+	
+		//Louvargia
+	{
+		"name": "Hymn House",
+		"replaces": "Temple",
+		"uniqueTo": "Louvargia",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Hidden when religion is disabled",
+					"[+1 Culture] per [3] population [in this city]",
+					"Destroyed when the city is captured"]
+	},
+	
+		//First Order
+	{
+		"name": "Porta Alchemica",
+		"replaces": "Courthouse",
+		"uniqueTo": "First Order",
+		"gold": 2,
+		"science": 2,
+		"production": 2,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"maintenance": 0,
+		"specialistSlots": {"Disciple": 1},
+		"cost": 140,
+		"requiredTech": "Mathematics",
+		"uniques": ["Remove extra unhappiness from annexed cities",  "Destroyed when the city is captured", 
+					"Can only be built in annexed cities", 
+				//	"Free [Alchemist] appears",
+					"Cannot be purchased",
+					"Unsellable"]
+	},
+	
+		//Arxia
+	{
+		"name": "Dragon Altar",
+		"uniqueTo": "Arxia",
+		"faith": 2,
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Pottery",
+		"uniques": ["Provides [1] [Dragon's Egg]", "Must be next to [Mountain]",
+					"[+1 Happiness, +2 Faith] from [Dragon's Egg] tiles [in this city]",
+					"Destroyed when the city is captured", "Cannot be purchased"]
+	},
+	
+		//Dwargon
+	{
+		"name": "Tinkerer's Depot",
+		"uniqueTo": "Dwargon",
+		"replaces": "Watchtower",
+		"maintenance": 0,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 50, "production": 10},
+		"requiredBuilding": "Public School",
+		"uniques": ["Must be next to [Mountain]", 
+					"[+1 Science] from [Mine] tiles [in this city]"],
+		"requiredTech": "Astronomy"
+	},
+	{
+		"name": "Higba's Legacy",
+		"uniqueTo": "Dwargon",
+		"maintenance": 0,
+		"cost": 1,
+		"uniques": ["Unbuildable", "Unsellable", "Must be on [Hill]", "Will not be displayed in Civilopedia",
+					"Destroyed when the city is captured", "Cannot be purchased",
+					"[+1 Production] [in this city] <starting from the [Classical age]>",
+					"[+1 Production] [in this city] <starting from the [Feudal age]>",
+					"[+2 Production] [in this city] <starting from the [Renaissance age]>",
+					"[+2 Production] [in this city] <starting from the [Heroic age]>",
+					"[+3 Production] [in this city] <starting from the [Mythic age]>",
+					"[+3 Production] [in this city] <starting from the [Chaos age]>",
+					"[+4 Production] [in this city] <starting from the [Future age]>"]
+	},
+	
+	//Zhin'enyah
+	{
+		"name": "Old God Monument",
+		"uniqueTo": "Zhin'enyah",
+		"replaces": "Monument",
+		"culture": 3,
+		"faith": 1,
+		"cost": 46,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured","New [Water] units start with [15] Experience [in this city] <after discovering [Compass]>"]
+	},
+	{
+		"name": "Free Megall",
+		"uniqueTo": "Zhin'enyah",
+		"cost": 1,
+		"maintenance": 0,
+		"uniques": ["Provides [1] [Megall]","Destroyed when the city is captured","Unbuildable","Will not be displayed in Civilopedia","Unsellable","Cannot be purchased"]
+	},
+	
+	//Eldariya
+	{
+		"name": "Crypt of the Unliving",
+		"uniqueTo": "Eldariya",
+		"replaces": "Pyramid",
+		"cityStrength": 7,
+		"cityHealth": 50,
+		"culture": 4,
+		"requiredBuilding": "Monument",
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"specialistSlots": {"Artist": 1},
+		"uniques": ["Destroyed when the city is captured","Doubles Gold given to enemy if city is captured",
+					"All newly-trained [{Military} {Land}] units [in this city] receive the [Dominion Patrol] promotion"]
+	},
+	
+	//UNIQUE NATIONAL WONDER
+	
+		//First Order
+	{	
+		"name": "Dimensional Shifting Project",
+		"uniqueTo": "First Order",
+		"cost": 375,
+		"maintenance": 10,
+		"isNationalWonder": true,
+		"requiredTech": "Alchemy",
+		"uniques": ["Free [Aurelionite Warping Device] appears", 
+					"Can only be built [in capital]", 
+					"Triggers a global alert upon completion",
+					"Destroyed when the city is captured"]
+	},
+	
+	
+		//Dwargon
+	{
+		"name": "Royal Inventor's Assembly",
+		"uniqueTo": "Dwargon",
+		"replaces": "Ironworks",
+		"cost": 150,
+		"production": 8,
+		"culture": 1,
+		"science": 4,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isNationalWonder": true,
+		"uniques": ["Cost increases by [25] per owned city", "Provides [1] [Orihalcum Ingot]", "Empire enters golden age",
+					"Free [Great Engineer] appears", "[+5]% Production when constructing [All] buildings [in this city]"],
+		"requiredTech": "Steel"
+	},
+	
+		//Shinso
+		//Takashi no Seimei
+	{	
+		"name": "Sabaku no Hashira",
+		"uniqueTo": "Shinso",
+		"greatPersonPoints": {"Great Engineer": 1},
+		"specialistSlots": {"Engineer": 2},
+		"faith": 3,
+		"isNationalWonder": true,
+		"cost": 130,
+		"requiredTech": "Calendar",
+		"uniques": ["Must have an owned [Desert] within [2] tiles", 
+					"Will not be displayed in Civilopedia",
+					"Only available <in cities without a [Palace]>", 
+					"Only available <in cities without a [Pillar]>",
+					"Gain a free [Pillar] [in this city]",
+					"Gain a free [Leyline1] [in capital]"]
+	},
+	
+	{	
+		"name": "Kawa no Hashira",
+		"uniqueTo": "Shinso",
+		"greatPersonPoints": {"Great Scientist": 1},
+		"specialistSlots": {"Scientist": 2},
+		"science": 3,
+		"isNationalWonder": true,
+		"cost": 130,
+		"requiredTech": "The Wheel",
+		"uniques": ["Must have an owned [River] within [2] tiles",
+					"Will not be displayed in Civilopedia",
+					"Only available <in cities without a [Palace]>", 
+					"Only available <in cities without a [Pillar]>",
+					"Gain a free [Pillar] [in this city]",
+					"Gain a free [Leyline2] [in capital]"]
+	},
+	
+	{	
+		"name": "Mizumi no Hashira",
+		"uniqueTo": "Shinso",
+		"greatPersonPoints": {"Great Merchant": 1},
+		"specialistSlots": {"Merchant": 2},
+		"gold": 3,
+		"isNationalWonder": true,
+		"cost": 130,
+		"requiredTech": "Engineering",
+		"uniques": ["Must have an owned [Lakes] within [2] tiles", 
+					"Will not be displayed in Civilopedia",
+					"Only available <in cities without a [Palace]>", 
+					"Only available <in cities without a [Pillar]>",
+					"Gain a free [Pillar] [in this city]",
+					"Gain a free [Leyline3] [in capital]"]
+	},
+	
+	{	
+		"name": "Yama no Hashira",
+		"uniqueTo": "Shinso",
+		"greatPersonPoints": {"Great Artist": 1},
+		"specialistSlots": {"Artist": 2},
+		"culture": 3,
+		"isNationalWonder": true,
+		"cost": 130,
+		"requiredTech": "Theology",
+		"uniques": ["Must have an owned [Mountain] within [2] tiles",
+					"Will not be displayed in Civilopedia",
+					"Only available <in cities without a [Palace]>",
+					"Only available <in cities without a [Pillar]>",
+					"Gain a free [Pillar] [in this city]",
+					"Gain a free [Leyline4] [in capital]"]
+	},
+	
+	{
+		"name": "Leyline1",
+		"uniqueTo": "Shinso",
+		"cost": 1,
+	//	"happiness": 1,
+		"uniques": [//"[+1 Production] from every specialist [in capital]",
+					"[+10]% great person generation [in all cities]",
+					"Will not be displayed in Civilopedia",
+					"Unbuildable", "Unsellable"]
+    },
+	
+	{
+		"name": "Leyline2",
+		"uniqueTo": "Shinso",
+		"cost": 1,
+	//	"happiness": 1,
+		"uniques": [//"[+1 Science] from every specialist [in capital]",
+					"[+10]% great person generation [in all cities]",
+					"Will not be displayed in Civilopedia",
+					"Unbuildable", "Unsellable"]
+    },
+	
+	{
+		"name": "Leyline3",
+		"uniqueTo": "Shinso",
+		"cost": 1,
+	//	"happiness": 1,
+		"uniques": [//"[+1 Gold] from every specialist [in capital]",
+					"[+10]% great person generation [in all cities]",
+					"Will not be displayed in Civilopedia",
+					"Unbuildable", "Unsellable"]
+    },
+	
+	{
+		"name": "Leyline4",
+		"uniqueTo": "Shinso",
+		"cost": 1,
+	//	"happiness": 1,
+		"uniques": [//"[+1 Culture] from every specialist [in capital]",
+					"[+10]% great person generation [in all cities]",
+					"Will not be displayed in Civilopedia",
+					"Unbuildable", "Unsellable"]
+    },
+	
+	{
+		"name": "Pillar",
+		"uniqueTo": "Shinso",
+	//	"cityStrength": 10,
+	//	"cityHealth": 75,
+		"cost": 1,
+		"happiness": 1,
+		"uniques": ["Will not be displayed in Civilopedia",
+					"Unbuildable", "Unsellable"]
+    },
+	
+	{	
+		"name": "Prosperity Project",
+		"uniqueTo": "Shinso",
+		"cost": 300,
+		"isNationalWonder": true,
+		"requiredTech": "Astronomy",
+		"greatPersonPoints": {"Great Artist": 1, "Great Engineer": 1, "Great Scientist": 1, "Great Merchant": 1},
+		"specialistSlots": {"Artist": 1, "Zen Overseer": 1,
+							"Engineer": 1,
+							"Scientist": 1,
+							"Merchant": 1},
+		"faith": 3,
+		"science": 3,
+		"culture": 3,
+		"gold": 3,
+		"uniques": ["[+10]% great person generation [in all cities]",
+					"Can only be built [in capital]",
+					"Requires a [Leyline1] in this city",
+					"Requires a [Leyline2] in this city",
+					"Requires a [Leyline3] in this city",
+					"Requires a [Leyline4] in this city",
+					"Cost increases by [20] per owned city"]
+	},
+	
+		//Shinso (Alt. Leader)
+		//Ikazuchi no Kaminari
+		
+	{
+		"name": "Dojojin",
+		"replaces": "Temple",
+		"uniqueTo": "Shinso (Alt. Leader)",
+		"faith": 2,
+		"maintenance": 2,
+		"cost": 110,
+		"requiredTech": "Philosophy",
+		"uniques": ["New [Military] units start with [15] Experience [in this city]",
+					"Hidden when religion is disabled","Destroyed when the city is captured"]
+	},
+	
+	{	
+		"name": "Sabaku no Hashira (Alt)",
+		"uniqueTo": "Shinso (Alt. Leader)",
+		"greatPersonPoints": {"Great Engineer": 1},
+		"specialistSlots": {"Engineer": 2},
+		"faith": 3,
+		"isNationalWonder": true,
+		"cost": 130,
+		"requiredTech": "Calendar",
+		"uniques": ["Must have an owned [Desert] within [2] tiles", 
+					"Will not be displayed in Civilopedia",
+					"Only available <in cities without a [Palace]>", 
+					"Only available <in cities without a [Pillar (Alt)]>",
+					"Gain a free [Pillar (Alt)] [in this city]",
+					"Gain a free [Leyline1 (Alt)] [in capital]"]
+	},
+	
+	{	
+		"name": "Kawa no Hashira (Alt)",
+		"uniqueTo": "Shinso (Alt. Leader)",
+		"greatPersonPoints": {"Great Scientist": 1},
+		"specialistSlots": {"Scientist": 2},
+		"science": 3,
+		"isNationalWonder": true,
+		"cost": 130,
+		"requiredTech": "The Wheel",
+		"uniques": ["Must have an owned [River] within [2] tiles",
+					"Will not be displayed in Civilopedia",
+					"Only available <in cities without a [Palace]>", 
+					"Only available <in cities without a [Pillar (Alt)]>",
+					"Gain a free [Pillar (Alt)] [in this city]",
+					"Gain a free [Leyline2 (Alt)] [in capital]"]
+	},
+	
+	{	
+		"name": "Mizumi no Hashira (Alt)",
+		"uniqueTo": "Shinso (Alt. Leader)",
+		"greatPersonPoints": {"Great Merchant": 1},
+		"specialistSlots": {"Merchant": 2},
+		"gold": 3,
+		"isNationalWonder": true,
+		"cost": 130,
+		"requiredTech": "Engineering",
+		"uniques": ["Must have an owned [Lakes] within [2] tiles", 
+					"Will not be displayed in Civilopedia",
+					"Only available <in cities without a [Palace]>", 
+					"Only available <in cities without a [Pillar (Alt)]>",
+					"Gain a free [Pillar (Alt)] [in this city]",
+					"Gain a free [Leyline3 (Alt)] [in capital]"]
+	},
+	
+	{	
+		"name": "Yama no Hashira (Alt)",
+		"uniqueTo": "Shinso (Alt. Leader)",
+		"greatPersonPoints": {"Great Artist": 1},
+		"specialistSlots": {"Artist": 2},
+		"culture": 3,
+		"isNationalWonder": true,
+		"cost": 130,
+		"requiredTech": "Theology",
+		"uniques": ["Must have an owned [Mountain] within [2] tiles",
+					"Will not be displayed in Civilopedia",
+					"Only available <in cities without a [Palace]>", 
+					"Only available <in cities without a [Pillar (Alt)]>",
+					"Gain a free [Pillar (Alt)] [in this city]",
+					"Gain a free [Leyline4 (Alt)] [in capital]"]
+	},
+	
+	{
+		"name": "Leyline1 (Alt)",
+		"uniqueTo": "Shinso (Alt. Leader)",
+		"cost": 1,
+	//	"happiness": 1,
+		"uniques": [//"[+1 Production] from every specialist [in capital]",
+					"[+3]% Strength <for [Military] units>",
+					"Will not be displayed in Civilopedia",
+					"Unbuildable", "Unsellable"]
+    },
+	
+	{
+		"name": "Leyline2 (Alt)",
+		"uniqueTo": "Shinso (Alt. Leader)",
+		"cost": 1,
+	//	"happiness": 1,
+		"uniques": [//"[+1 Science] from every specialist [in capital]",
+					"[+3]% Strength <for [Military] units>",
+					"Will not be displayed in Civilopedia",
+					"Unbuildable", "Unsellable"]
+    },
+	
+	{
+		"name": "Leyline3 (Alt)",
+		"uniqueTo": "Shinso (Alt. Leader)",
+		"cost": 1,
+	//	"happiness": 1,
+		"uniques": [//"[+1 Gold] from every specialist [in capital]",
+					"[+3]% Strength <for [Military] units>",
+					"Will not be displayed in Civilopedia",
+					"Unbuildable", "Unsellable"]
+    },
+	
+	{
+		"name": "Leyline4 (Alt)",
+		"uniqueTo": "Shinso (Alt. Leader)",
+		"cost": 1,
+	//	"happiness": 1,
+		"uniques": [//"[+1 Culture] from every specialist [in capital]",
+					"[+3]% Strength <for [Military] units>",
+					"Will not be displayed in Civilopedia",
+					"Unbuildable", "Unsellable"]
+    },
+	
+	{
+		"name": "Pillar (Alt)",
+		"uniqueTo": "Shinso (Alt. Leader)",
+	//	"cityStrength": 10,
+	//	"cityHealth": 75,
+		"cost": 1,
+		"happiness": 1,
+		"uniques": ["Will not be displayed in Civilopedia",
+					"Unbuildable", "Unsellable"]
+    },
+	
+	{	
+		"name": "Prosperity Project (Alt)",
+		"uniqueTo": "Shinso (Alt. Leader)",
+		"cost": 300,
+		"isNationalWonder": true,
+		"requiredTech": "Astronomy",
+		"greatPersonPoints": {"Great Artist": 1, "Great Engineer": 1, "Great Scientist": 1, "Great Merchant": 1},
+		"specialistSlots": {"Artist": 1, "Zen Overseer": 1,
+							"Engineer": 1,
+							"Scientist": 1,
+							"Merchant": 1},
+		"faith": 3,
+		"science": 3,
+		"culture": 3,
+		"gold": 3,
+		"uniques": ["[+3]% Strength <for [Military] units>",
+					"Can only be built [in capital]",
+					"Requires a [Leyline1 (Alt)] in this city",
+					"Requires a [Leyline2 (Alt)] in this city",
+					"Requires a [Leyline3 (Alt)] in this city",
+					"Requires a [Leyline4 (Alt)] in this city",
+					"Cost increases by [20] per owned city"]
+	},
+		
+	
+	//WORLD WONDER
+	
+]

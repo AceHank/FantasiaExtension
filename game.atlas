@@ -20,7 +20,7 @@ BuildingIcons/Dimensional Shifting Project
   index: -1
 BuildingIcons/Dojojin
   rotate: false
-  xy: 436, 408
+  xy: 328, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -251,21 +251,21 @@ NationIcons/Arxia
   index: -1
 NationIcons/Dwargon
   rotate: false
-  xy: 544, 408
+  xy: 436, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Eldariya
   rotate: false
-  xy: 328, 84
+  xy: 544, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/First Order
   rotate: false
-  xy: 652, 408
+  xy: 544, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -391,35 +391,35 @@ UnitIcons/Aurelionite Warping Device
   index: -1
 UnitIcons/Divine Order
   rotate: false
-  xy: 220, 192
+  xy: 112, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Dragon Knight
   rotate: false
-  xy: 436, 300
+  xy: 328, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Dragon Paladin
   rotate: false
-  xy: 436, 300
+  xy: 328, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Dragonling Rider
   rotate: false
-  xy: 436, 300
+  xy: 328, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Elder Dragon Paladin
   rotate: false
-  xy: 436, 300
+  xy: 328, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -501,91 +501,91 @@ UnitPromotionIcons/Cryonite-cooled Radiator
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Disciplined
-  rotate: false
-  xy: 112, 84
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 UnitPromotionIcons/Divine Right
   rotate: false
-  xy: 328, 300
+  xy: 220, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Dominion Patrol
   rotate: false
-  xy: 220, 84
+  xy: 436, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Draconic Warrior
   rotate: false
-  xy: 328, 192
+  xy: 220, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Exposed Core
   rotate: false
-  xy: 436, 192
+  xy: 328, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Fast Learner
   rotate: false
-  xy: 544, 300
+  xy: 436, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Focusing Crystal I
   rotate: false
-  xy: 436, 84
+  xy: 652, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Focusing Crystal II
   rotate: false
-  xy: 544, 192
+  xy: 436, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Focusing Crystal III
   rotate: false
-  xy: 652, 300
+  xy: 544, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Frightening Visage
   rotate: false
-  xy: 760, 408
+  xy: 652, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/HE Payload I
   rotate: false
-  xy: 544, 84
+  xy: 760, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/HE Payload II
   rotate: false
-  xy: 652, 192
+  xy: 544, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/HE Payload III
+  rotate: false
+  xy: 652, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Highly Trained
   rotate: false
   xy: 760, 300
   size: 100, 100

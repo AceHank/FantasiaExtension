@@ -590,7 +590,7 @@
 		"uniques": ["[+100]% Strength <when attacking> <when above [95] HP>"]
 	},
 	{
-		"name": "Disciplined",
+		"name": "Highly Trained",
 		"uniques": ["[+10]% Strength <when adjacent to a [Melee] unit>","[75]% XP gained from combat"]
 	},
 	{

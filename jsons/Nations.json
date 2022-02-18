@@ -161,17 +161,17 @@
 		"startBias": ["Mountain"],
 		"preferredVictoryType": "Diplomatic",
 		
-		"startIntroPart1": "Most venerated, Takashi no Seimei of Shinso, you are a pioneer in the ways of Onmyou. Your peerless dedication on leading your people unto Prosperity has ushered a new age of unity. For long has your people divided each on their own idea of wealth. Now you've came, offering all of which this world has to offer.",
-		"startIntroPart2": "Takashi no Seimei, most astute of all Shinso, the keys to unlock Prosperity are within your grasp. Will you acquire it for the good of life? Will you stand tall and proud amongst those who seeks harm to Shinso? Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
 		
-		"declaringWar": "We won't let your arrogance upon Her divinity be permitted! And we will attain Her benevolence!",
-		"attacked": "Act of insolence against our Mother can't be tolerated! By our Mother's embrace that you shall pay the price!",
-		"defeated": "Mother, why hast thou forsaken us? How come the Motherland be a barren land of cold?",
-		"introduction": "Greetings strangers, I am Alexander, the Grand Director of Louvargia, come and feast with us! These are Her blessings of good harvest.",
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
 		
-		"neutralHello": "Divine's Favour be upon you, let us talk and eat upon Her yield!",
-		"hateHello": "We shall not tolerate disrespect towards our Mother. State your business or stay clear from our land!",
-		"tradeRequest": "With guidance from our Mother, we've come to arrange an agreement with you.",
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
 		
 		"outerColor": [255,89,56],
 		"innerColor": [128,0,255],
@@ -181,8 +181,8 @@
 		"uniques": ["[+2 Gold] from every [Taming]",
 					"Starts with [Optics]",
 					"Gain [+10] Influence with a [Draconic] gift to a City-State"],
-		"cities": ["Louvar","Malovar","Orivar","Resivar","Amolivar","Luivar","Amanivar","Pialivar","Jalarivar","Valarivar","Urivar","Komivar",
-			"Luxuvar","Kurivar","Liqovar","Albuvar","Rasutovar"]
+		"cities": ["Arx","Hepus","Amidonia","Yolis","Xada","Anceport","Idofield","Lashire","Mauxland","Ordton","Wexton","Kurx",
+			"Alerough","Pimmouth","Buxia","Ixla","Izok"]
 	},
 	
 	//Queen Almira of Dwargon
@@ -193,27 +193,27 @@
 		"startBias": ["Mountain"],
 		"preferredVictoryType": "Scientific",
 		
-		"startIntroPart1": "Most venerated, Takashi no Seimei of Shinso, you are a pioneer in the ways of Onmyou. Your peerless dedication on leading your people unto Prosperity has ushered a new age of unity. For long has your people divided each on their own idea of wealth. Now you've came, offering all of which this world has to offer.",
-		"startIntroPart2": "Takashi no Seimei, most astute of all Shinso, the keys to unlock Prosperity are within your grasp. Will you acquire it for the good of life? Will you stand tall and proud amongst those who seeks harm to Shinso? Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": "Most majestic Queen Almira, the leader of the Dwarf of Dwargon! The nation of Dwargon has ushered onto new age owing to the late King, Higba. Now you succeeded the throne and all of its legacy. The mountainous land of Dwargon surely will brings forth advances and breakthroughs.",
+		"startIntroPart2": "Queen Almira, your brilliant mind isn't inferior to your late King. Will you continue upon his legacy and stand unchallenged like a mountain? Will you reach the top and protect the Dwarven's land? Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": "We won't let your arrogance upon Her divinity be permitted! And we will attain Her benevolence!",
-		"attacked": "Act of insolence against our Mother can't be tolerated! By our Mother's embrace that you shall pay the price!",
-		"defeated": "Mother, why hast thou forsaken us? How come the Motherland be a barren land of cold?",
-		"introduction": "Greetings strangers, I am Alexander, the Grand Director of Louvargia, come and feast with us! These are Her blessings of good harvest.",
+		"declaringWar": "You has transgessed our agenda, we won't let you have it your way!",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
 		
-		"neutralHello": "Divine's Favour be upon you, let us talk and eat upon Her yield!",
-		"hateHello": "We shall not tolerate disrespect towards our Mother. State your business or stay clear from our land!",
-		"tradeRequest": "With guidance from our Mother, we've come to arrange an agreement with you.",
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
 		
 		"outerColor": [84,43,11],
 		"innerColor": [12,242,189],
 		"favoredReligion": "Preformationism",
 		"uniqueName": "Higba's Ingenuity",
-		"uniqueText": "+1 Production at every Era starting from Classical Era for cities settled on Hill with an increment of +1 Production after every two Eras.\n\nReceive free Orihalcum Golem after discovering Engineering.\n",
+		"uniqueText": "+1 Production at every Era starting from Classical Era for cities settled on Hill.\n\nReceive free Orihalcum Golem after discovering Engineering.\n",
 		"uniques": ["Receive free [Orihalcum Golem] when you discover [Engineering]",
 					"Gain a free [Higba's Legacy] [in all cities] <in [Hill] tiles>"],
-		"cities": ["Louvar","Malovar","Orivar","Resivar","Amolivar","Luivar","Amanivar","Pialivar","Jalarivar","Valarivar","Urivar","Komivar",
-			"Luxuvar","Kurivar","Liqovar","Albuvar","Rasutovar"]
+		"cities": ["Dhin Kahldur","Thal Wuhrum","Nigh Burimm","Kharn Molduhr","Vil Lodihr","Dhirn Dural","Vol Torum","Dar Burimm","Kug Boldir","Kugh Lodahr","Kar Doral","Mol Kolduhr",
+			"Murn Thurim","Tharn Buldohr","Hug Burim","Tham Olihm","Khogh Toduhr"]
 	},
 
 	//Crimson Prince Orz'athot of Zhin'enyah
@@ -224,17 +224,17 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "Most venerated, Takashi no Seimei of Shinso, you are a pioneer in the ways of Onmyou. Your peerless dedication on leading your people unto Prosperity has ushered a new age of unity. For long has your people divided each on their own idea of wealth. Now you've came, offering all of which this world has to offer.",
-		"startIntroPart2": "Takashi no Seimei, most astute of all Shinso, the keys to unlock Prosperity are within your grasp. Will you acquire it for the good of life? Will you stand tall and proud amongst those who seeks harm to Shinso? Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
 		
-		"declaringWar": "We won't let your arrogance upon Her divinity be permitted! And we will attain Her benevolence!",
-		"attacked": "Act of insolence against our Mother can't be tolerated! By our Mother's embrace that you shall pay the price!",
-		"defeated": "Mother, why hast thou forsaken us? How come the Motherland be a barren land of cold?",
-		"introduction": "Greetings strangers, I am Alexander, the Grand Director of Louvargia, come and feast with us! These are Her blessings of good harvest.",
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
 		
-		"neutralHello": "Divine's Favour be upon you, let us talk and eat upon Her yield!",
-		"hateHello": "We shall not tolerate disrespect towards our Mother. State your business or stay clear from our land!",
-		"tradeRequest": "With guidance from our Mother, we've come to arrange an agreement with you.",
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
 		
 		"outerColor": [0,43,11],
 		"innerColor": [0,242,189],
@@ -255,27 +255,27 @@
 		"adjective": ["Eldars"],
 		"preferredVictoryType": "Cultural",
 		
-		"startIntroPart1": "Most venerated, Takashi no Seimei of Shinso, you are a pioneer in the ways of Onmyou. Your peerless dedication on leading your people unto Prosperity has ushered a new age of unity. For long has your people divided each on their own idea of wealth. Now you've came, offering all of which this world has to offer.",
-		"startIntroPart2": "Takashi no Seimei, most astute of all Shinso, the keys to unlock Prosperity are within your grasp. Will you acquire it for the good of life? Will you stand tall and proud amongst those who seeks harm to Shinso? Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
 		
-		"declaringWar": "We won't let your arrogance upon Her divinity be permitted! And we will attain Her benevolence!",
-		"attacked": "Act of insolence against our Mother can't be tolerated! By our Mother's embrace that you shall pay the price!",
-		"defeated": "Mother, why hast thou forsaken us? How come the Motherland be a barren land of cold?",
-		"introduction": "Greetings strangers, I am Alexander, the Grand Director of Louvargia, come and feast with us! These are Her blessings of good harvest.",
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
 		
-		"neutralHello": "Divine's Favour be upon you, let us talk and eat upon Her yield!",
-		"hateHello": "We shall not tolerate disrespect towards our Mother. State your business or stay clear from our land!",
-		"tradeRequest": "With guidance from our Mother, we've come to arrange an agreement with you.",
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
 		
 		"outerColor": [130,139,142],
 		"innerColor": [50,205,50],
 		"favoredReligion": "Relativity",
 		"uniqueName": "Buried Marvels",
-		"uniqueText": "+2 Culture, +1 Happiness from every World Wonders and another +2 Culture after discovering Archaeology.\n\n+50% Production when constructing World Wonder for the first time in a city.\n",
+		"uniqueText": "+3 Culture, +1 Happiness from every World Wonders and another +2 Culture after discovering Archaeology.\n\n+50% Production when constructing World Wonder for the first time in a city.\n",
 		"uniques": ["[+3 Culture, +1 Happiness] from every [World Wonder]", "[+2 Culture] from every [World Wonder] <after discovering [Archaeology]>",
 					"[+50]% Production when constructing [All] wonders [in all cities]",
 					"[-50]% Production when constructing [All] wonders [in all cities with a world wonder]"],
-		"cities": ["R'lyeh","Cthacha","Tthogl","Zam'yal","Bbhoth","R'atharstlaki","K'ruazshogng","Mithitharu","Yot'phasamego","Stho'mau","L'iteignon","Hugogn-aqug",
-			"E'uloruggo","Nyart-zha","Ki'tlzsactarl","Rthu-arnysomo","Ruata-kilz","Mma-omitagulo","Rhothur","Thac-cae","Utlhu","Hauggyil-itu"]
+		"cities": ["Phaeron's Seat","Ankhesefret","Isetnotanath","Khetamun","Nimaetef","Imhokhmet","Khaera","Seshetamen","Horemka","Ptoletep","Nakhtoptah","Tutatamen",
+			"Khutamun","Anlakhotep","Rahotef","Nebnebiankh","Sensedjem","Nebethis","Takhathap","Psuseramen","Hetecris","Nubkhecris"]
 	}
 ]

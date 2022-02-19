@@ -526,9 +526,9 @@
 	
 	//Construct
 	{
-		"name": "Ballistic Capability",
+		"name": "Assault Protocol",
 		"prerequisites": ["Cover II"],
-		"uniques": ["[+1] Range"],
+		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Construct"]
 	},
 	{
@@ -539,7 +539,7 @@
 	},
 	{
 		"name": "Auxiliary Core",
-		"prerequisites": ["Shock III","Drill III","Exposed Core"],
+		"prerequisites": ["Shock III","Drill III","Exposed Core","Assault Protocol"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Construct"]
 	},
@@ -575,7 +575,7 @@
 	},
 	{
 		"name": "Heal Instantly II",
-	"prerequisites": ["Elixir of Life"],
+		"prerequisites": ["Elixir of Life"],
 		"uniques": ["Heal this unit by [100] HP", "Doing so will consume this opportunity to choose a Promotion"]
 	},
 	{

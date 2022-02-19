@@ -240,7 +240,7 @@
 		"innerColor": [0,242,189],
 		"favoredReligion": "Balance",
 		"uniqueName": "Deep Dwellers",
-		"uniqueText": "Lose access to normal Water units, but gain access to Leviathan units instead.\n\nAll Military Land units gain the Creature of the Depth promotion, making them stronger in tile with access to water and weaker in tile without access to water.\n\nEmbarked units can defend themselves.\n\nCapital provides 1 Megall.\n\nReceive free Old God Monument in annexed cities.\n",
+		"uniqueText": "Lose access to normal Water units, but gain access to Leviathan units instead.\n\nAll Military Land units gain the Creature of the Depth promotion, making them stronger in tile with access to water and weaker in tile without access to water.\n\nCapital provides 1 Megall.\n\nReceive free Old God Monument in annexed cities.\n",
 		"uniques": ["[{Military} {Land}] units gain the [Creature of the Depth] promotion",
 					"Embarked units can defend themselves",
 					"Gain a free [Old God Monument] [in annexed cities]",

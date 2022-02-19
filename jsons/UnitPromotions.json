@@ -553,15 +553,15 @@
 	},
 	{
 		"name": "Frightening Visage",
-		"prerequisites": ["Targeting III","Bombardment III","Coastal Raider III","Uncanny Agility","Regenerative Tissue"],
-		"uniques": ["[-20]% Strength for enemy [All] units in adjacent [All] tiles"],
+		"prerequisites": ["Targeting III","Bombardment III","Coastal Raider III","Uncanny Agility"],
+		"uniques": ["[-15]% Strength for enemy [All] units in adjacent [All] tiles"],
 		"unitTypes": ["Sea Monster"]
 	},
 	{
 		"name": "Regenerative Tissue",
-		"prerequisites": ["Targeting II","Bombardment II","Coastal Raider II"],
+		"prerequisites": ["Targeting III","Bombardment III","Coastal Raider III","Wolfpack III","Uncanny Agility"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Sea Monster"]
+		"unitTypes": ["Sea Monster","Water Terror"]
 	},
 	
 	// Uniques that should be kept on upgrades
@@ -571,6 +571,11 @@
 	},
 	{
 		"name": "Elixir of Life",
+		"uniques": ["Access to better 'Heal Instantly' promotions"]
+	},
+	{
+		"name": "Heal Instantly II",
+	"prerequisites": ["Elixir of Life"],
 		"uniques": ["Heal this unit by [100] HP", "Doing so will consume this opportunity to choose a Promotion"]
 	},
 	{
@@ -583,7 +588,7 @@
 	},
 	{
 		"name": "Final Moments",
-		"uniques": ["[+170]% Strength <when below [10] HP>","Self-destructs when attacking <when below [90] HP>"]
+		"uniques": ["[+170]% Strength <when below [10] HP>","Self-destructs when attacking <when below [10] HP>"]
 	},
 	{
 		"name": "Impetus",
@@ -614,11 +619,14 @@
 		"uniques": ["May withdraw before melee ([33]%)","Ignores Zone of Control"]
 	},
 	{
-		"name": "Creature of the Depth",		//TLDR: Water good, no water bad
-		"uniques": ["[+10]% Strength <when fighting in [Fresh Water] tiles> <in [Land] tiles> <with [0] to [0] neighboring [Coast] tiles>","[+15]% Strength <when fighting in [Coast] tiles>",
+		"name": "Creature of the Depth",		//TLDR: yes water good, no water bad
+		"uniques": ["[+10]% Strength <when fighting in [Fresh Water] tiles> <with [0] to [0] neighboring [Coast] tiles>",
 					"[+15]% Strength <when fighting in [Land] tiles> <with [1] to [6] neighboring [Coast] tiles>",
-					"Normal vision when embarked","Eliminates combat penalty for attacking across a coast","Defense bonus when embarked","Eliminates combat penalty for attacking over a river",
-					"[+1] Movement <in [Fresh Water] tiles> <in [Land] tiles> <with [0] to [0] neighboring [Coast] tiles>","[+1] Movement <in [Coast] tiles>","[-1] Movement <in [Land] tiles> <with [0] to [0] neighboring [Coast] tiles>"]
+					"[+1] Movement <in [Fresh Water] tiles> <with [0] to [0] neighboring [Coast] tiles>",
+					"[-1] Movement <in [Land] tiles> <with [0] to [0] neighboring [Coast] tiles>",
+				//	"[+15]% Strength <when fighting in [Coast] tiles>","[+1] Movement <in [Coast] tiles>",
+					"Normal vision when embarked","Defense bonus when embarked",
+					"Eliminates combat penalty for attacking across a coast","Eliminates combat penalty for attacking over a river"]
 	},
 	
 		//First Order Obelisk

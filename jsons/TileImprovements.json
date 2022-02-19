@@ -61,14 +61,13 @@
 		"name": "Surfaced Sunken City",
 		"uniqueTo": "Zhin'enyah",
 		"terrainsCanBeBuiltOn": ["Ocean"],
-		"techRequired": "Sailing",
+		"techRequired": "Optics",
 		"turnsToBuild": 10,
-		"culture": 2,
+		"culture": 1,
 		"production": 1,
 		"uniques": ["Great Improvement","[+2 Culture] <after discovering [Archaeology]>",
 					"[+1 Production] for each adjacent [Water resource]","[+1 Faith] for each adjacent [Atoll]",
-					"[-1 Production, -5 Culture, -1 Faith] for each adjacent [Surfaced Sunken City]",
-					"Provides [1] [Megall]"]
-	//	"replacementTextForUniques": "+2 Culture. +1 Production.\n+2 Culture after discovering Archaeology.\n+1 Production for each adjacent water resource. +1 Faith for each adjacent Atoll.\nProvides 1 Megall.\nIneffective when placed adjacent to each other." 
+					"[-1 Production, -5 Culture, -1 Faith] for each adjacent [Surfaced Sunken City]"],
+		"replacementTextForUniques": "+1 Culture. +1 Production.\n+2 Culture after discovering Archaeology.\n+1 Production for each adjacent water resource. +1 Faith for each adjacent Atoll.\nIneffective when placed adjacent to each other." 
 	},	
 ]

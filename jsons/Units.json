@@ -166,7 +166,7 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Crossbowman",
 		"obsoleteTech": "Machinery",
-		"promotions": ["Accuracy I", "Barrage I"],
+		"promotions": ["Fast Learner"],
 		"hurryCostModifier": 20,
 		"attackSound": "whoosh"
 	},

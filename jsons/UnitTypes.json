@@ -26,7 +26,7 @@
 	{
         "name": "Obelisk",
         "movementType": "Air",
-        "uniques": ["Warping Device", "6 tiles in every direction always visible", "Cannot be intercepted", 
+        "uniques": ["Cannot be intercepted", 
 					"Unit will heal every turn, even if it performs an action",
 					"[+40]% Strength <starting from the [Heroic age]>",
 					"[+60]% Strength <starting from the [Mythic age]>",

@@ -85,10 +85,10 @@
 		"replaces": "Monument",
 		"culture": 3,
 		"faith": 1,
-		"cost": 46,
+		"cost": 48,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured","New [Water] units start with [15] Experience [in this city] <after discovering [Compass]>"]
+		"uniques": ["Provides [1] [Megall]", "Destroyed when the city is captured", "New [Water] units start with [15] Experience [in this city] <after discovering [Compass]>"]
 	},
 	{
 		"name": "Free Megall",

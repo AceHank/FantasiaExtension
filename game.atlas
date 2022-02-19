@@ -6,238 +6,238 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Crypt of the Unliving
   rotate: false
-  xy: 220, 300
+  xy: 112, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Dimensional Shifting Project
   rotate: false
-  xy: 328, 408
+  xy: 220, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Dojojin
   rotate: false
-  xy: 328, 300
+  xy: 220, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Dragon Altar
   rotate: false
-  xy: 1516, 260
+  xy: 1732, 476
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 BuildingIcons/Hymn House
   rotate: false
-  xy: 868, 408
+  xy: 760, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Kawa no Hashira
   rotate: false
-  xy: 760, 192
+  xy: 976, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Kawa no Hashira (Alt)
   rotate: false
-  xy: 760, 192
+  xy: 976, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mizumi no Hashira
   rotate: false
-  xy: 760, 192
+  xy: 976, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mizumi no Hashira (Alt)
   rotate: false
-  xy: 760, 192
+  xy: 976, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Sabaku no Hashira
   rotate: false
-  xy: 760, 192
+  xy: 976, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Sabaku no Hashira (Alt)
   rotate: false
-  xy: 760, 192
+  xy: 976, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Yama no Hashira
   rotate: false
-  xy: 760, 192
+  xy: 976, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Yama no Hashira (Alt)
   rotate: false
-  xy: 760, 192
+  xy: 976, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Leyline1
   rotate: false
-  xy: 976, 408
+  xy: 868, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Leyline1 (Alt)
   rotate: false
-  xy: 976, 408
+  xy: 868, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Leyline2
   rotate: false
-  xy: 760, 84
+  xy: 976, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Leyline2 (Alt)
   rotate: false
-  xy: 760, 84
+  xy: 976, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Leyline3
   rotate: false
-  xy: 868, 192
+  xy: 1084, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Leyline3 (Alt)
   rotate: false
-  xy: 868, 192
+  xy: 1084, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Leyline4
   rotate: false
-  xy: 976, 300
+  xy: 868, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Leyline4 (Alt)
   rotate: false
-  xy: 976, 300
+  xy: 868, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Old God Monument
   rotate: false
-  xy: 1084, 192
+  xy: 1300, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Pillar
   rotate: false
-  xy: 1084, 84
+  xy: 1300, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Pillar (Alt)
   rotate: false
-  xy: 1084, 84
+  xy: 1300, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Porta Alchemica
   rotate: false
-  xy: 1192, 192
+  xy: 1408, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Prosperity Project
   rotate: false
-  xy: 1300, 300
+  xy: 1192, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Prosperity Project (Alt)
   rotate: false
-  xy: 1300, 300
+  xy: 1192, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Royal Inventor's Assembly
   rotate: false
-  xy: 1300, 192
+  xy: 1516, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Tinkerer's Depot
   rotate: false
-  xy: 1408, 192
+  xy: 1624, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Blessed Farm
   rotate: false
-  xy: 112, 300
+  xy: 4, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Kyber Foundry
   rotate: false
-  xy: 868, 300
+  xy: 760, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Matter Transmuter
   rotate: false
-  xy: 1084, 300
+  xy: 976, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Meka-Monastery
   rotate: false
-  xy: 1192, 408
+  xy: 1084, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Surfaced Sunken City
   rotate: false
-  xy: 1300, 84
+  xy: 1516, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -251,56 +251,56 @@ NationIcons/Arxia
   index: -1
 NationIcons/Dwargon
   rotate: false
-  xy: 436, 300
+  xy: 328, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Eldariya
   rotate: false
-  xy: 544, 408
+  xy: 436, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/First Order
   rotate: false
-  xy: 544, 300
+  xy: 436, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Louvargia
   rotate: false
-  xy: 1084, 408
+  xy: 976, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Machinia
   rotate: false
-  xy: 868, 84
+  xy: 1084, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Shinso
   rotate: false
-  xy: 1408, 300
+  xy: 1300, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Shinso (Alt. Leader)
   rotate: false
-  xy: 1408, 300
+  xy: 1300, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Zhin'enyah
   rotate: false
-  xy: 1408, 84
+  xy: 1624, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -314,14 +314,14 @@ TileSets/FantasyHex/Tiles/Blessed Farm
   index: -1
 TileSets/FantasyHex/Tiles/Kyber Foundry
   rotate: false
-  xy: 1624, 361
+  xy: 1516, 145
   size: 32, 39
   orig: 32, 39
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Matter Transmuter
   rotate: false
-  xy: 1732, 479
+  xy: 1624, 263
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
@@ -384,245 +384,259 @@ UnitIcons/Alchemist
   index: -1
 UnitIcons/Aurelionite Warping Device
   rotate: false
-  xy: 4, 192
+  xy: 112, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Divine Order
   rotate: false
-  xy: 112, 84
+  xy: 328, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Dragon Knight
   rotate: false
-  xy: 328, 192
+  xy: 544, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Dragon Paladin
   rotate: false
-  xy: 328, 192
+  xy: 544, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Dragonling Rider
   rotate: false
-  xy: 328, 192
+  xy: 544, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Elder Dragon Paladin
   rotate: false
-  xy: 328, 192
+  xy: 544, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Iron Templar
   rotate: false
-  xy: 652, 84
+  xy: 868, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Meka-Priest
   rotate: false
-  xy: 976, 84
+  xy: 1192, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Onmyouji
   rotate: false
-  xy: 1192, 300
+  xy: 1084, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Orihalcum Golem
   rotate: false
-  xy: 1300, 408
+  xy: 1192, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Orihalcum Golem Mk. II
   rotate: false
-  xy: 1300, 408
+  xy: 1192, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Orihalcum Golem Mk. III
   rotate: false
-  xy: 1300, 408
+  xy: 1192, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Orihalcum Golem Mk. IV
   rotate: false
-  xy: 1300, 408
+  xy: 1192, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Tomb Guard
   rotate: false
-  xy: 1516, 300
+  xy: 1408, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Cluster Payload
+UnitPromotionIcons/Assault Protocol
+  rotate: false
+  xy: 4, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Auxiliary Core
   rotate: false
   xy: 220, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Creature of the Depth
-  rotate: false
-  xy: 4, 84
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Cryonite-cooled Radiator
+UnitPromotionIcons/Cluster Payload
   rotate: false
   xy: 112, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Divine Right
+UnitPromotionIcons/Creature of the Depth
   rotate: false
-  xy: 220, 192
+  xy: 220, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Dominion Patrol
+UnitPromotionIcons/Cryonite-cooled Radiator
+  rotate: false
+  xy: 328, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Divine Right
   rotate: false
   xy: 436, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Dominion Patrol
+  rotate: false
+  xy: 328, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Draconic Warrior
   rotate: false
-  xy: 220, 84
+  xy: 436, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Exposed Core
   rotate: false
-  xy: 328, 84
+  xy: 544, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Fast Learner
   rotate: false
-  xy: 436, 192
+  xy: 652, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Focusing Crystal I
   rotate: false
-  xy: 652, 408
+  xy: 544, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Focusing Crystal II
   rotate: false
-  xy: 436, 84
+  xy: 652, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Focusing Crystal III
   rotate: false
-  xy: 544, 192
+  xy: 760, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Frightening Visage
   rotate: false
-  xy: 652, 300
+  xy: 544, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/HE Payload I
   rotate: false
-  xy: 760, 408
+  xy: 652, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/HE Payload II
   rotate: false
-  xy: 544, 84
+  xy: 760, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/HE Payload III
   rotate: false
-  xy: 652, 192
+  xy: 868, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Highly Trained
   rotate: false
-  xy: 760, 300
+  xy: 652, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Malachite-infused Payload
   rotate: false
-  xy: 976, 192
+  xy: 1192, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Regenerative Bio-Steel
   rotate: false
-  xy: 1408, 408
+  xy: 1300, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Regenerative Tissue
   rotate: false
-  xy: 1192, 84
+  xy: 1408, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Slow Learner
   rotate: false
-  xy: 1516, 408
+  xy: 1408, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Uncanny Agility
   rotate: false
-  xy: 1624, 408
+  xy: 1516, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

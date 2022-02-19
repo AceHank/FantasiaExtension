@@ -272,10 +272,11 @@
 		"innerColor": [50,205,50],
 		"favoredReligion": "Relativity",
 		"uniqueName": "Buried Marvels",
-		"uniqueText": "+2 Culture, +1 Happiness from every World Wonders and another +2 Culture after discovering Archaeology.\n\n+50% Production when constructing World Wonder for the first time in a city.\n",
+		"uniqueText": "+2 Culture, +1 Happiness from every World Wonder and another +2 Culture after discovering Archaeology.\n\n+1 Culture from every National Wonder\n\n+50% Production when constructing the first World Wonder in a city.\n",
 		"uniques": ["[+2 Culture, +1 Happiness] from every [World Wonder]", "[+2 Culture] from every [World Wonder] <after discovering [Archaeology]>",
-					"[+50]% Production when constructing [All] wonders [in all cities]",
-					"[-50]% Production when constructing [All] wonders [in all cities with a world wonder]"],
+					"[+1 Culture] from every [National Wonder]",
+					"[+50]% Production when constructing [World Wonder] wonders [in all cities]",
+					"[-50]% Production when constructing [World Wonder] wonders [in all cities with a world wonder]"],
 		"cities": ["Phaeron's Seat","Ankhesefret","Isetnotanath","Khetamun","Nimaetef","Imhokhmet","Khaera","Seshetamen","Horemka","Ptoletep","Nakhtoptah","Tutatamen",
 			"Khutamun","Anlakhotep","Rahotef","Nebnebiankh","Sensedjem","Nebethis","Takhathap","Psuseramen","Hetecris","Nubkhecris"]
 	}
